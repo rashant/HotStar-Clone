@@ -1,0 +1,26 @@
+body{
+background-color:#0c111b;
+display:flex;
+flex:1;
+width:100%;
+}
+
+.watch>span{
+font-size:30px;
+font-weight:500;
+margin:20px;
+color:white !important;
+}
+
+.media-row{
+display:flex;
+}
+
+
+.media-row:-webkit-scrollbar{
+display:none;
+}
+
+.watch{
+margin:25px;
+}
