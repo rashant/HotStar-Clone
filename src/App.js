@@ -5,7 +5,7 @@ import Media from './Media';
 import Footer from './Footer';
 function App() {
   return (
-    <div className="App mx-auto">
+    <div className="App">
     <Header/>
     <MediaAd/><br/>
     <div className="watch">

@@ -1,9 +1,9 @@
 .mediaImage>img{
 margin-top: 10px;
 height:410px;
-display:flex;
-flex:1;
+flex-wrap: wrap;
 width:600px;
+overflow:hidden;
 }
 
 .mediaImage{
@@ -13,6 +13,7 @@ max-width:500px;
 .mediaAd{
 display:flex;
 flex:1;
+flex-wrap: wrap;
 margin: 0 auto;
 width:95%;
 background-color:#030b17;
@@ -57,3 +58,10 @@ margin-top:200px;
 font-size:50px;
 margin-left:100px;
 }
+/*1366 x 768 High Definition (HD)*/
+@media only screen and (max-width:1000px) {
+  .mediaImage>img{
+    display:none;
+  }
+}
+

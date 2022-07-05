@@ -6,8 +6,8 @@ import {BiSearchAlt2} from 'react-icons/bi';
 
 const Header= () => {
     return (
-        <div className="header mx-auto">
-        <div className="header-content mx-auto">
+        <div className="header">
+        <div className="header-content">
         <div className="header-left">
         <i><VscThreeBars/></i>
         <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt=""/>
